@@ -35,7 +35,7 @@
             <testResource>
                 <directory>src/test/java</directory>
                 <excludes>
-                    <exclude>**/*.java</exclude>
+                    <exclude>Runner.java</exclude>
                 </excludes>
             </testResource>
         </testResources>
@@ -50,6 +50,7 @@
                     <target>${java.version}</target>
                     <compilerArgument>-Werror</compilerArgument>
                 </configuration>
+
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
